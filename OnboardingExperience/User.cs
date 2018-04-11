@@ -9,11 +9,7 @@ namespace OnboardingExperience
         public string FirstName;
         public string LastName; 
         
-        static string AskQuestion(string question)
-        {
-            Console.WriteLine(question);
-            return Console.ReadLine();
-        }
+        
 
         
     }
