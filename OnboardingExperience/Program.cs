@@ -6,7 +6,9 @@ namespace OnboardingExperience
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var user = new User();
+
+            Console.WriteLine("Hello! We'll need to gather information about you to get started!");
 
             Console.ReadLine();
         }
