@@ -8,9 +8,8 @@ namespace OnboardingExperience
     {
         public string FirstName;
         public string LastName; 
-        
-        
-
-        
+        public bool IsAccountHolder;
+        public int PinNumber;
+       
     }
 }
